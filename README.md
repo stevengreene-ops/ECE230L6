@@ -27,4 +27,4 @@ and a carry is generated for the next column. A standard OR gate would incorrect
 ensures the sum bit correctly returns to 0, allowing the circuit to perform accurate binary arithmetic.
 
 ### 3 - What is the largest number a two bit adder can handle? What happens when you go over?
-
+The largest number would be 7 with the carry-in on the first full adder, but would be really 6 with the initial 2 A & B bits feeding into the adders. If you go over, you will encounter an overflow error, and it would result in staying with an incorrect number. 
